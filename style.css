@@ -1,0 +1,323 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    text-transform: capitalize;
+}
+.container{
+    background-image: url(https://assets.nicepagecdn.com/11a8ddce/6262341/images/2149005918.jpg);
+    background-position: 0% 46.65%;
+    background-size: 140%;
+    
+background-repeat: no-repeat;
+}
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo ul li {
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: center;
+    text-decoration: none;
+    padding: 50px;
+    
+}
+.logo ul li a {
+    text-decoration: none;
+    color: white;
+}
+.logo img{
+    margin-right: 40%;
+}
+.header{
+    margin-top: 30%;
+}
+.header h2{
+    color: white;
+    font-size: 2rem;
+  
+}
+.header h1{
+    color:rgb(167, 167, 69);
+font-size: 5rem;
+
+
+}
+.buton_sec{
+    padding: 20px;
+    gap: 30px;
+}
+.buton_sec button{
+    width: 20%;
+    color: white;
+    height: 6vh;
+    border-radius: 75px;
+    border: 1px solid white;
+    background-color: rgb(77, 131, 77);
+}
+.coprate h1{
+    font-size: 3rem;
+    margin-left: 10%;
+}
+.coprate p{
+    font-size: 1.125rem;
+    margin-left: 10%;
+}
+.coprate button{
+padding: 20px;
+margin-top: 20px;
+background-color: rgb(79, 131, 131);
+color: white;
+border-radius: 76px ;
+border: 1px solid rgb(79, 131, 131);
+
+    margin-left: 10%;
+}
+.boexs{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+.box1{
+    border: 1px solid;
+    width: 30%;
+    height: 40vh;
+    margin: 20px;
+    border-radius: 75px;
+}
+.box1 img{
+    padding: 5px;
+    margin-left: 30%;
+    margin-top: 40px;
+}
+.client{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.client img{
+    height: 50vh;
+    border-radius: 50px;
+}
+.headind_client h2{
+    font-size: 2rem;
+    margin-left: 15%;
+}
+.headind_client p{
+    font-size: 2rem;
+    margin-left: 15%;
+}
+.headind_client button{
+    margin-left: 40%;
+    width: 10%;
+    padding: 20px;
+    color: white;
+    border: 1px solid cornflowerblue;
+    border-radius: 75px;
+    background-color: rgb(108, 158, 158);
+}
+.project{
+display: inline-flex;
+margin-left: 30%;
+}
+.project img{
+    width: 30%;
+    border-radius: 70px;
+    height: 50vh;
+}
+.head{
+    margin: 40px;
+}
+.head h1{
+font-size: 4rem;
+}
+.head p{
+    font-size: 2rem;
+    }
+    .paragraph p{
+        font-size: 2rem;
+    margin-left: 15%;
+    }
+
+    .safety{
+        display: inline-flex;
+
+padding: 50px;
+color: white;
+width: 92%;
+background-color:rgb(250, 152, 117);
+gap: 40px;
+    }
+    .safety button{
+        width: 15%;
+        border-radius: 75px;
+        color: white;
+        background-color: rgb(74, 153, 153);
+        border:brown;
+    }
+    .women_client{
+        display: inline-flex;
+    }
+    .women_client h1{
+        display: inline-flex;
+        margin-top: 70px;
+        margin: 20px;
+    }
+    .women_client p{
+      font-size: 2rem;
+    }
+    
+    .women_client img{
+        padding: 20px;
+        height: 50vh;
+    }
+    .value_section{
+        background-color: rgb(176, 238, 176);
+    }
+    .value h1{
+        display: flex;
+        justify-content: center;
+        align-items:center ;
+        font-size: 3rem;
+    }
+    .value p{
+        font-size: 1.3rem;
+    margin-left: 5%;
+
+    }
+    .value_bosex{
+        display: inline-flex;
+        justify-content: center;
+        align-items: center;
+        padding: 30px;
+    }
+    .value_box{
+        border: 1px solid;
+        margin: 20px;
+        height: 40vh;
+        border-radius: 75px;
+        border: 2px solid;
+        
+    }
+    .value_box p{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 20%;
+        font-size: large;
+        margin-left: 10%;
+         
+     }
+    .value_box h3{
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       margin-top: 10%;
+        
+    }
+    .value_box img{
+       margin-left: 40%;
+       width: 50px;
+         
+     }
+     .provide{
+        background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(https://assets.nicepagecdn.com/11a8ddce/6262341/images/9858.jpg);
+    background-position: 50% 29.53%;
+     }
+     .provide {
+        padding: 25%;
+     }
+     .provide img{
+        margin-bottom: 30%;
+        margin-left: -30%;
+        width: 107px;
+    
+     }
+     .provide h1{
+        margin-top: -25%;
+        margin-left: -30%;
+        color: white;
+     }
+     .provide input{
+        
+        margin-left: -30%;
+        padding: 10px;
+        width: 50%;
+        border-radius: 75px;
+     }
+     .provide button{
+        color: white;
+       font-size: 1.5rem;
+        padding: 10px;
+    border: 1px solid wheat;
+        width: 30%;
+        border-radius: 75px;
+        background-color: rgb(236, 164, 164);
+     }
+     .footor_sec{
+        display: inline-flex;
+        background-color: rgb(41, 39, 39);
+        width: 100%;
+       
+     }
+     .footor{
+        
+       
+        padding: 20px;
+     }
+     .footor p{
+        padding: 10px;
+        margin-left: 10%;
+        color: white;
+    
+    
+     }
+     .footor img{
+      width: 107px;
+      margin-left: 10%;
+      margin-top: 5%;
+     }
+     .page{
+        margin-left: 5%;
+        margin-top: 5%;
+        
+     }
+     .page h1{
+       color: white;
+     }
+     .page pre{
+font-size: 1.5rem;
+color: white;
+        
+     }
+     .contact{
+        margin-left: 5%;
+        margin-top: 5%;
+     }
+     .contact h1{
+       color: white;
+     }
+     .contact p{
+        color: white;
+      }
+     .subcribe{
+        margin-top: 5%;
+        margin-left: 10%;
+     }
+     .subcribe input{
+        padding: 10px;
+       
+     }
+     .subcribe button{
+        padding: 10px;
+        border-radius: 75px;
+        background-color: rgb(252, 149, 149);
+       
+     }
+     .subcribe{
+        color: white;
+     }

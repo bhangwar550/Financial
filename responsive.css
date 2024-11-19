@@ -1,0 +1,166 @@
+@media (max-width: 1200px) {
+    .logo ul, .buton_sec {
+        flex-direction: column;
+    }
+    .header h1 {
+        font-size: 28px;
+    }
+    .project .head h1 {
+        font-size: 24px;
+    }
+}
+
+@media (max-width: 992px) {
+    .navbar ul, .boexs {
+        flex-direction: column;
+    }
+    .header h1 {
+        font-size: 24px;
+    }
+    .project .head h1 {
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 768px) {
+    .container, .client, .women_client, .project, .safety {
+        flex-direction: column;
+    }
+    .header h2, .header h1 {
+        font-size: 20px;
+    }
+    .boexs img {
+        width: 80%;
+        margin: 10px;
+    }
+}
+
+@media (max-width: 576px) {
+    .logo ul, .navbar ul {
+        flex-direction: column;
+        text-align: center;
+    }
+    .project .head h1 {
+        font-size: 18px;
+    }
+    .header h1 {
+        font-size: 18px;
+    }
+    .client img, .women_client img, .project img {
+        width: 100%;
+    }
+    .value_box {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+}
+@media (max-width: 1024px) {
+    .header h1 {
+        font-size: 3rem;
+    }
+    .buton_sec button {
+        width: 30%;
+    }
+    .project img {
+        width: 40%;
+    }
+    .head h1 {
+        font-size: 3rem;
+    }
+    .value_section h1 {
+        font-size: 2.5rem;
+    }
+}
+
+/* Tablets and Small Devices */
+@media (max-width: 768px) {
+    .container {
+        background-size: cover;
+    }
+    .logo ul li {
+        padding: 20px;
+    }
+    .header h1 {
+        font-size: 2.5rem;
+    }
+    .buton_sec button {
+        width: 50%;
+        margin-top: 10px;
+    }
+    .client img {
+        height: 40vh;
+    }
+    .project {
+        display: block;
+        margin-left: 10%;
+    }
+    .project img {
+        width: 60%;
+        margin-top: 20px;
+    }
+    .value_box {
+        width: 100%;
+    }
+    .footor_sec {
+        flex-direction: column;
+        padding: 20px;
+    }
+    .footor img {
+        margin: 0 auto;
+    }
+    .page, .contact, .subcribe {
+        margin-left: 0;
+        text-align: center;
+    }
+}
+
+/* Mobile Devices */
+@media (max-width: 576px) {
+    .logo ul {
+        display: block;
+        text-align: center;
+        padding: 20px 0;
+    }
+    .header h1, .header h2 {
+        font-size: 1.5rem;
+        text-align: center;
+    }
+    .buton_sec button {
+        width: 70%;
+        margin: 5px auto;
+        display: block;
+    }
+    .coprate h1 {
+        font-size: 2rem;
+        text-align: center;
+    }
+    .coprate p, .coprate button {
+        text-align: center;
+        margin: 0 auto;
+    }
+    .box1 {
+        width: 80%;
+        height: auto;
+        margin: 10px auto;
+    }
+    .client, .project {
+        flex-direction: column;
+        text-align: center;
+    }
+    .client img, .project img {
+        width: 100%;
+        height: auto;
+    }
+    .provide {
+        padding: 10%;
+    }
+    .provide h1 {
+        font-size: 1.5rem;
+        text-align: center;
+        margin: 20px 0;
+    }
+    .footor_sec {
+        padding: 20px;
+        text-align: center;
+    }
+}
